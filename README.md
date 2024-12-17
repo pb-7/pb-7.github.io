@@ -24,8 +24,8 @@ _June 2023 – July 2024_
 **Research Analyst**  
 *Kathmandu, Nepal*  
 _December 2021 – July 2023_  
+- Developed machine learning models, including a Customer Churn Prediction model using logistic regression, alongside Time Series Analysis using LSTM and other analytics projects for clients.
 - Collaborated with the research team to analyze and publish a research review paper titled ‘Digital Twin and Its Implementation in 3D Printing’. Also prepared reports pertaining to topics such as Building Information Management and its adaptation in the context of Nepal.
-- Developed machine learning projects, including a Customer Churn Prediction model using logistic regression, alongside Time Series Analysis using LSTM and other analytics projects for clients.
 - Facilitated workshop sessions on business & analytics, design thinking and 3D printing. Collected and analyzed inter-departmental data and collaborated with the business development team to streamline business processes.
 
 ### China Communications Services International  
