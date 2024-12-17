@@ -67,6 +67,12 @@ _October 2016 – September 2019_
 
 ---
 
+## Projects 
+
+- [Life Expectancy Prediction Project](https://github.com/pb-7/Life_Expectancy_Prediction_Project)
+
+---
+
 ## Research Paper  
 
 - Bhattarai, Piyush Mohan, et al. _“Digital Twin and Its Implementation in 3D Printing: A Research Review.”_  
