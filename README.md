@@ -69,7 +69,7 @@ _October 2016 – September 2019_
 
 ## Projects 
 
-- [Life Expectancy Prediction Project](https://github.com/pb-7/Life_Expectancy_Prediction_Project)
+- [Life Expectancy Prediction Project](https://github.com/pb-7/Life_Expectancy_Prediction_Project/tree/main)
 
 ---
 
