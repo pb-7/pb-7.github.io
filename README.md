@@ -24,11 +24,9 @@ _June 2023 – July 2024_
 **Research Analyst**  
 *Kathmandu, Nepal*  
 _December 2021 – July 2023_  
-- Collaborated with the research team to analyze and publish a research review paper titled _“Digital Twin and Its Implementation in 3D Printing”_.  
-- Prepared reports on topics such as Building Information Management and its adaptation in Nepal.  
-- Utilized business intelligence tools to develop interactive dashboards in Tableau, supporting machine learning projects such as Customer Churn Prediction and forecasting through Time Series Analysis with LSTM.  
-- Facilitated workshop sessions on business & analytics, design thinking, and 3D printing.  
-- Collected and analyzed inter-departmental data and collaborated with the business development team to streamline business processes.
+- Collaborated with the research team to analyze and publish a research review paper titled ‘Digital Twin and Its Implementation in 3D Printing’. Also prepared reports pertaining to topics such as Building Information Management and its adaptation in the context of Nepal.
+- Developed machine learning projects, including a Customer Churn Prediction model using logistic regression, alongside Time Series Analysis using LSTM and other analytics projects for clients.
+- Facilitated workshop sessions on business & analytics, design thinking and 3D printing. Collected and analyzed inter-departmental data and collaborated with the business development team to streamline business processes.
 
 ### China Communications Services International  
 **Assistant Department Project Manager**  
