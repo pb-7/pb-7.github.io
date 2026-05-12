@@ -43,6 +43,7 @@ _December 2020 – July 2022_
 - Built Tableau dashboards visualizing churn trends and customer risk segments, enabling stakeholders to monitor retention KPIs and act on early warning indicators.
 - Authored research on Digital Twin applications in 3D printing and Building Information Modeling (BIM), covering planning, coordination, and resource optimization use cases.
 
+
 ### The Nineties Tech [Contract]
 **Business Analyst**  
 *Kathmandu, Nepal*  
@@ -51,6 +52,7 @@ August 2020 – July 2022_
 - Analyzed operational and service delivery data using SQL and BI reporting tools to identify process inefficiencies, contributing to improvements that reduced delivery bottlenecks by 15%.
 - Defined data capture requirements and collaborated with engineering teams to ensure accurate data structure and downstream usability for reporting and analytics.
 - Designed UAT test cases, tracked defects across business and technical teams, and validated system outputs against requirements to improve delivery quality.
+
 
 ### China Communications Services International  
 **Assistant Department Project Manager**  
@@ -67,12 +69,14 @@ _November 2017 – July 2020_
 ## Education  
 
 - **Saint Louis University**  
-  *Master of Science in Analytics*  
+  *Master of Science in Analytics*
+  GPA: 4.00
   _St. Louis, MO_  
-  _Expected May 2026_
+  May 2026_
 
 - **King’s College** (Affiliated to Westcliff University)  
-  *Master of Business Administration, Entrepreneurship*  
+  *Master of Business Administration, Entrepreneurship*
+  GPA: 3.77
   _Kathmandu, Nepal_  
   _March 2021_
 
@@ -83,9 +87,9 @@ _November 2017 – July 2020_
 
 ---
 
-## Projects 
+## Relevant Projects 
 
-- [Life Expectancy Prediction Project](https://github.com/pb-7/Life_Expectancy_Prediction_Project/tree/main)
+- 
 
 ---
 
@@ -97,22 +101,11 @@ _November 2017 – July 2020_
 
 ---
 
-## Skills  
-
-- **Data Analysis:** Exploratory Data Analysis (EDA), ETL (Extract, Transform, Load), SQL, Spreadsheets, Data Cleaning and Preprocessing  
-- **Data Visualization:** Tableau, Looker Studio  
-- **Data Science and Statistical Programming:** Python, R  
-- **Data Science and Machine Learning:** Natural Language Processing (NLP), Deep Learning, Machine Learning  
-- **Project and Business Management:** Project Management, Business Development and Planning, Team Management  
-
----
-
 ## Certifications  
 
-- **Coursera**  
-  - Machine Learning Specialization (_June 2023_)  
-  - Google Data Analytics Professional Certificate (_January 2022_)  
+- Machine Learning Specialization (Stanford AI)
+- Google Data Analytics Professional Certificate
+- Google AI Professional Certificate
+- Six Sigma White Belt (Educate 360)
+- Generative AI Fundamentals (Databricks)
 
-- **DataCamp**  
-  - Introduction to Python (_September 2021_)  
-  - Intermediate Python (_September 2021_)  
