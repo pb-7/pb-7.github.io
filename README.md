@@ -25,38 +25,42 @@ Data analyst and ML practitioner with experience building scalable analytics sys
 **Lead Data Analyst**  
 *Kathmandu, Nepal*  
 _June 2022 – July 2024_  
-Built and scaled NLP-based analytics workflows using Python, SQL, and text embedding models to extract insights from unstructured security questionnaire data, improving customer operations efficiency by 20%.
-Automated data pipelines integrating customer health, product usage, and feedback data, enabling adoption trend analysis, engagement pattern monitoring, and early risk detection to support customer success decisions.
-Designed and executed A/B tests on ML model variants using predefined KPIs and structured feedback from 50+ analysts, driving data-driven model selection and continuous workflow improvement.
-Implemented LSTM and ARIMA time-series forecasting models to anticipate questionnaire volume and turnaround time, improving resource allocation, capacity planning, and analyst bandwidth management.
-Consolidated 50,000+ questions from the Knowledge Library to develop SP-Core, a standardized security questionnaire framework for third-party vendor risk assessment, reducing average turnaround time by 30%.
-Built Tableau dashboards and client journey visualizations, with timeline prototypes designed in Figma, to identify operational trends, service gaps, and workflow inefficiencies.
-Led a team of 10 analysts, coordinating cross-functional reporting workflows and reducing BAU delivery timelines by 25% through structured process optimization and KPI tracking.
+- Built and scaled NLP-based analytics workflows using Python, SQL, and text embedding models to extract insights from unstructured security questionnaire data, improving customer operations efficiency by 20%.
+- Automated data pipelines integrating customer health, product usage, and feedback data, enabling adoption trend analysis, engagement pattern monitoring, and early risk detection to support customer success decisions.
+- Designed and executed A/B tests on ML model variants using predefined KPIs and structured feedback from 50+ analysts, driving data-driven model selection and continuous workflow improvement.
+- Implemented LSTM and ARIMA time-series forecasting models to anticipate questionnaire volume and turnaround time, improving resource allocation, capacity planning, and analyst bandwidth management.
+- Consolidated 50,000+ questions from the Knowledge Library to develop SP-Core, a standardized security questionnaire framework for third-party vendor risk assessment, reducing average turnaround time by 30%.
+- Built Tableau dashboards and client journey visualizations, with timeline prototypes designed in Figma, to identify operational trends, service gaps, and workflow inefficiencies.
+- Led a team of 10 analysts, coordinating cross-functional reporting workflows and reducing BAU delivery timelines by 25% through structured process optimization and KPI tracking.
 
 
 ### Research and Innovation Unit  
 **Research Analyst**  
 *Kathmandu, Nepal*  
-_December 2021 – July 2023_  
-- Developed machine learning models, including a Customer Churn Prediction model using logistic regression, alongside Time Series Analysis using LSTM and other analytics projects for clients.
-- Collaborated with the research team to analyze and publish a research review paper titled ‘Digital Twin and Its Implementation in 3D Printing’. Also prepared reports pertaining to topics such as Building Information Management and its adaptation in the context of Nepal.
-- Facilitated workshop sessions on business & analytics, design thinking and 3D printing. Collected and analyzed inter-departmental data and collaborated with the business development team to streamline business processes.
+_December 2020 – July 2022_  
+- Developed a customer churn prediction model using Random Forest and SQL-based feature engineering, identifying at-risk segments and reducing churn by 15% over 3 months.
+- Conducted sentiment analysis and exploratory data analysis on customer feedback datasets to uncover key churn drivers, enabling more targeted retention strategies and improved customer segment identification.
+- Built Tableau dashboards visualizing churn trends and customer risk segments, enabling stakeholders to monitor retention KPIs and act on early warning indicators.
+- Authored research on Digital Twin applications in 3D printing and Building Information Modeling (BIM), covering planning, coordination, and resource optimization use cases.
+
+### The Nineties Tech [Contract]
+**Business Analyst**  
+*Kathmandu, Nepal*  
+August 2020 – July 2022_  
+- Led requirements gathering and stakeholder alignment across multiple software projects, translating business needs into functional specifications and workflow maps that guided development and reduced scope creep.
+- Analyzed operational and service delivery data using SQL and BI reporting tools to identify process inefficiencies, contributing to improvements that reduced delivery bottlenecks by 15%.
+- Defined data capture requirements and collaborated with engineering teams to ensure accurate data structure and downstream usability for reporting and analytics.
+- Designed UAT test cases, tracked defects across business and technical teams, and validated system outputs against requirements to improve delivery quality.
 
 ### China Communications Services International  
 **Assistant Department Project Manager**  
 *Kathmandu, Nepal*  
-_November 2019 – July 2021_  
-- Conducted stakeholder analysis and gathered requirements for the implementation of the Goods Tracking System (GTS) software in Nepal Telecom’s 4G LTE project.  
-- Managed database operations & prepared Functional Specification Documentation as well as test cases for the Provisional Acceptance Test (PAT) of the GTS software.  
-- Analyzed project alignments and progress using Excel and SQL, effectively representing the software department in data-driven briefings for internal and client stakeholders.
-
-### Creative Theme Nepal Pvt Ltd.  
-**Operations Associate Manager**  
-*Lalitpur, Nepal*  
-_October 2016 – September 2019_  
-- Conducted data analysis on client requirements and operational metrics to develop targeted project strategies, enhancing operational efficiency.  
-- Analyzed operational data to optimize recruitment & onboarding processes, improving team productivity by 30%.  
-- Incorporated market analytics into web development and digital marketing initiatives, driving client engagement.
+_November 2017 – July 2020_  
+- Led stakeholder analysis and requirements gathering for Nepal Telecom’s 4G LTE Goods Tracking System (GTS), reducing requirement-related project delays by 25% through structured documentation and cross-team alignment.
+- Standardized GTS reporting structures across analytics, operations, and finance workflows, improving consistency in project tracking, goods movement visibility, and financial reporting inputs.
+- Supported SAP and GTS reporting processes for project tracking, goods movement, and repair/return workflows, ensuring accurate inventory status, repair visibility, and operational traceability across the supply chain.
+- Documented Standard Operating Procedure (SOP) and mapped operational workflows into functional specifications, ensuring system capabilities aligned with business objectives, reporting needs, and project tracking requirements.
+- Conducted User Acceptance Testing, tracked and visualized logistics issues across business and technical stakeholders, reducing testing cycle time by 30% during Provisional Acceptance Testing (PAT).
 
 ---
 
