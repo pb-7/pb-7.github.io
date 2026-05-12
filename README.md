@@ -47,7 +47,7 @@ _December 2020 – July 2022_
 ### The Nineties Tech [Contract]
 **Business Analyst**  
 *Kathmandu, Nepal*  
-August 2020 – July 2022_  
+_August 2020 – July 2022_  
 - Led requirements gathering and stakeholder alignment across multiple software projects, translating business needs into functional specifications and workflow maps that guided development and reduced scope creep.
 - Analyzed operational and service delivery data using SQL and BI reporting tools to identify process inefficiencies, contributing to improvements that reduced delivery bottlenecks by 15%.
 - Defined data capture requirements and collaborated with engineering teams to ensure accurate data structure and downstream usability for reporting and analytics.
