@@ -103,7 +103,7 @@ _November 2017 – July 2020_
 
 ## Certifications  
 
-- Machine Learning Specialization (Stanford AI)
+- Machine Learning Specialization (Stanford AI) [https://www.credly.com/badges/60f60ed6-0f0c-496f-a4e2-f74d39db1e54]
 - Google Data Analytics Professional Certificate
 - Google AI Professional Certificate
 - Six Sigma White Belt (Educate 360)
