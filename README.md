@@ -1,12 +1,21 @@
 # Piyush Mohan Bhattarai  
-**Email:** pratikmb7@gmail.com  
+**Email:** piyush.m.bhattarai@gmail.com  
 **Phone:** (984) 374-9810  
-**LinkedIn:** [linkedin.com/in/piyush-mohan-bhattarai-33903b268/](https://www.linkedin.com/in/piyush-mohan-bhattarai-33903b268/)
+**LinkedIn:** [https://www.linkedin.com/in/piyushmb)
 
 ---
 
 ## Profile  
-Data Analyst with experience in managing teams and executing data-driven projects using analysis, visualization, and machine learning techniques. Proficient in designing models and creating roadmaps to enhance operational decision-making. Currently pursuing a Master’s in Analytics, with a strong passion for leveraging data to tackle complex challenges.
+Data analyst and ML practitioner with experience building scalable analytics systems, predictive models, and BI dashboards. Proven track record of translating complex business problems into data-driven solutions, including reducing churn, cutting delivery timelines, and improving operational efficiency. Experienced in cross-functional stakeholder management, Agile delivery, and ML workflows from EDA through model evaluation and operational adoption.
+
+---
+
+## Skills  
+
+**Analytics & Modeling:** Python, Pandas, NumPy, Scikit-learn, R, SQL, EDA, ETL Pipelines, Predictive Analysis, Time-Series Forecasting, LSTM, ARIMA, Statistical Modeling, Data Warehousing
+**Machine Learning & NLP:** Random Forest, Tree-Based Models, Deep Learning, Text Embeddings, LLM-Based NLP, RAG Pipelines, A/B Testing, Model Evaluation & Deployment
+**Business Intelligence:** Tableau, Power BI, Looker Studio, Excel, Power Query, DAX, Pivot Tables, VLOOKUP, XLOOKUP, SAP, Google Sheets
+**Business & Delivery:** Stakeholder Management, Agile Delivery, KPI Monitoring, Process Optimization, ERP/CRM Systems, Cross-Functional Coordination, UAT, Data Governance
 
 ---
 
@@ -15,10 +24,15 @@ Data Analyst with experience in managing teams and executing data-driven project
 ### SecurityPal Inc.  
 **Lead Data Analyst**  
 *Kathmandu, Nepal*  
-_June 2023 – July 2024_  
-- Analyzed textual data using Sentence Transformers and advanced NLP techniques to generate actionable insights for the customer operations team, leading to innovative client-facing business processes and enhanced decision-making.  
-- Developed and integrated machine learning models into customer operations processes, reducing project delivery time by 40% and improving overall process quality.  
-- Recruited and led a team of 10 data analysts on business-as-usual projects, setting and monitoring KPIs to evaluate performance, ensure effective collaboration, and maintain productivity with the wider team.
+_June 2022 – July 2024_  
+Built and scaled NLP-based analytics workflows using Python, SQL, and text embedding models to extract insights from unstructured security questionnaire data, improving customer operations efficiency by 20%.
+Automated data pipelines integrating customer health, product usage, and feedback data, enabling adoption trend analysis, engagement pattern monitoring, and early risk detection to support customer success decisions.
+Designed and executed A/B tests on ML model variants using predefined KPIs and structured feedback from 50+ analysts, driving data-driven model selection and continuous workflow improvement.
+Implemented LSTM and ARIMA time-series forecasting models to anticipate questionnaire volume and turnaround time, improving resource allocation, capacity planning, and analyst bandwidth management.
+Consolidated 50,000+ questions from the Knowledge Library to develop SP-Core, a standardized security questionnaire framework for third-party vendor risk assessment, reducing average turnaround time by 30%.
+Built Tableau dashboards and client journey visualizations, with timeline prototypes designed in Figma, to identify operational trends, service gaps, and workflow inefficiencies.
+Led a team of 10 analysts, coordinating cross-functional reporting workflows and reducing BAU delivery timelines by 25% through structured process optimization and KPI tracking.
+
 
 ### Research and Innovation Unit  
 **Research Analyst**  
