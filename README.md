@@ -1,6 +1,5 @@
 # Piyush Mohan Bhattarai  
 **Email:** piyush.m.bhattarai@gmail.com  
-**Phone:** (984) 374-9810  
 **LinkedIn:** [https://www.linkedin.com/in/piyushmb)
 
 ---
