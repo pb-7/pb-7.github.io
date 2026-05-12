@@ -103,9 +103,9 @@ _November 2017 – July 2020_
 
 ## Certifications  
 
-- Machine Learning Specialization (Stanford AI) [https://www.credly.com/badges/60f60ed6-0f0c-496f-a4e2-f74d39db1e54]
-- Google Data Analytics Professional Certificate
-- Google AI Professional Certificate
-- Six Sigma White Belt (Educate 360)
-- Generative AI Fundamentals (Databricks)
+- Machine Learning Specialization (Stanford Online) [https://www.coursera.org/account/accomplishments/specialization/9S6LU89G7YUL]
+- Google Data Analytics Professional Certificate [https://www.coursera.org/account/accomplishments/professional-cert/RSK3HMJDFGGG]
+- Google AI Professional Certificate [https://www.credly.com/badges/60f60ed6-0f0c-496f-a4e2-f74d39db1e54]
+- Six Sigma White Belt (Educate 360) []
+- Generative AI Fundamentals (Databricks) [https://credentials.databricks.com/021346b1-c467-4091-9727-8d3be0ead5d5#acc.43aBPlMv]
 
