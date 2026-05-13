@@ -1,0 +1,977 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Piyush Bhattarai | Analytics, ML & AI Decision Support</title>
+  <meta name="description" content="Portfolio of Piyush Bhattarai — analytics, machine learning, AI decision-support systems, business intelligence, and operational analytics projects." />
+
+  <style>
+    :root {
+      --bg: #f8fafc;
+      --bg-soft: #eef4ff;
+      --card: #ffffff;
+      --card-soft: #f1f5f9;
+      --text: #0f172a;
+      --muted: #475569;
+      --muted-2: #64748b;
+      --blue: #2563eb;
+      --blue-2: #1d4ed8;
+      --border: rgba(15, 23, 42, 0.12);
+      --shadow: 0 18px 45px rgba(15, 23, 42, 0.10);
+      --radius: 22px;
+      --max-width: 1180px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background:
+        radial-gradient(circle at top right, rgba(37, 99, 235, 0.12), transparent 34%),
+        radial-gradient(circle at top left, rgba(14, 165, 233, 0.10), transparent 30%),
+        linear-gradient(180deg, #ffffff 0%, #f8fafc 42%, #eef4ff 100%);
+      color: var(--text);
+      line-height: 1.65;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    img {
+      max-width: 100%;
+      display: block;
+    }
+
+    .container {
+      width: min(100% - 40px, var(--max-width));
+      margin: 0 auto;
+    }
+
+    .navbar {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(255, 255, 255, 0.86);
+      backdrop-filter: blur(18px);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .nav-inner {
+      height: 76px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-weight: 800;
+      letter-spacing: -0.03em;
+    }
+
+    .brand-mark {
+      width: 42px;
+      height: 42px;
+      display: grid;
+      place-items: center;
+      border-radius: 14px;
+      background: linear-gradient(135deg, var(--blue), #1d4ed8);
+      color: white;
+      font-weight: 900;
+      box-shadow: 0 12px 30px rgba(37, 99, 235, 0.22);
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 26px;
+      color: var(--muted);
+      font-size: 0.95rem;
+      font-weight: 700;
+    }
+
+    .nav-links a:hover {
+      color: var(--blue-2);
+    }
+
+    .nav-resume {
+      padding: 10px 16px;
+      border: 1px solid rgba(37, 99, 235, 0.28);
+      border-radius: 12px;
+      color: var(--blue-2) !important;
+      background: rgba(37, 99, 235, 0.06);
+    }
+
+    .menu-btn {
+      display: none;
+      border: 1px solid var(--border);
+      background: white;
+      color: var(--text);
+      border-radius: 12px;
+      padding: 8px 12px;
+      cursor: pointer;
+    }
+
+    .hero {
+      min-height: calc(100vh - 76px);
+      display: grid;
+      align-items: center;
+      padding: 78px 0 70px;
+      overflow: hidden;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.08fr 0.92fr;
+      gap: 64px;
+      align-items: center;
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 10px 16px;
+      border: 1px solid rgba(37, 99, 235, 0.18);
+      border-radius: 999px;
+      background: rgba(37, 99, 235, 0.07);
+      color: #1e40af;
+      font-size: 0.94rem;
+      font-weight: 700;
+      margin-bottom: 24px;
+    }
+
+    .dot {
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      background: var(--blue-2);
+      opacity: 0.9;
+    }
+
+    .hero h1 {
+      font-size: clamp(2.55rem, 5.2vw, 4.8rem);
+      line-height: 1.04;
+      letter-spacing: -0.06em;
+      margin-bottom: 26px;
+    }
+
+    .hero h1 span {
+      color: var(--blue);
+      display: block;
+    }
+
+    .hero-copy {
+      max-width: 690px;
+      color: var(--muted);
+      font-size: clamp(1.03rem, 1.55vw, 1.22rem);
+      margin-bottom: 32px;
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin-bottom: 42px;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      padding: 13px 18px;
+      border-radius: 14px;
+      border: 1px solid var(--border);
+      font-weight: 800;
+      transition: transform 0.2s ease, border-color 0.2s ease, background 0.2s ease;
+      min-width: 148px;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+      border-color: rgba(37, 99, 235, 0.32);
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, var(--blue), #1d4ed8);
+      border-color: transparent;
+      color: white;
+      box-shadow: 0 16px 34px rgba(37, 99, 235, 0.24);
+    }
+
+    .btn-ghost {
+      background: rgba(255, 255, 255, 0.78);
+      color: var(--text);
+    }
+
+    .mini-stats {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 18px;
+      max-width: 760px;
+    }
+
+    .mini-stat {
+      padding: 18px;
+      border-left: 1px solid var(--border);
+    }
+
+    .mini-stat strong {
+      display: block;
+      color: var(--text);
+      font-size: 1rem;
+    }
+
+    .mini-stat span {
+      color: var(--muted-2);
+      font-size: 0.92rem;
+    }
+
+    .hero-visual {
+      position: relative;
+      min-height: 500px;
+      display: grid;
+      place-items: center;
+    }
+
+    .orb {
+      position: absolute;
+      width: 500px;
+      height: 500px;
+      border-radius: 50%;
+      background:
+        radial-gradient(circle at 45% 35%, rgba(37, 99, 235, 0.20), transparent 25%),
+        radial-gradient(circle at 60% 50%, rgba(14, 165, 233, 0.13), transparent 36%),
+        rgba(219, 234, 254, 0.62);
+      border: 1px solid rgba(37, 99, 235, 0.10);
+    }
+
+    .profile-card {
+      position: relative;
+      width: min(400px, 90%);
+      min-height: 480px;
+      border-radius: 36px;
+      overflow: hidden;
+      border: 1px solid var(--border);
+      background:
+        linear-gradient(180deg, rgba(255, 255, 255, 0.16), rgba(255, 255, 255, 0.88)),
+        linear-gradient(135deg, rgba(37, 99, 235, 0.16), transparent);
+      box-shadow: var(--shadow);
+      display: grid;
+      align-items: end;
+    }
+
+    .profile-placeholder {
+      position: absolute;
+      inset: 0;
+      display: grid;
+      place-items: center;
+      color: rgba(37, 99, 235, 0.24);
+      font-size: 6rem;
+      font-weight: 900;
+      letter-spacing: -0.08em;
+      background:
+        linear-gradient(135deg, rgba(219, 234, 254, 0.8), rgba(255, 255, 255, 0.3)),
+        repeating-linear-gradient(90deg, rgba(37, 99, 235, 0.06) 0 1px, transparent 1px 26px);
+    }
+
+    .profile-card img {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center top;
+      z-index: 1;
+    }
+
+    .profile-note {
+      position: relative;
+      z-index: 2;
+      margin: 22px;
+      padding: 18px;
+      border-radius: 20px;
+      background: rgba(255, 255, 255, 0.84);
+      border: 1px solid rgba(15, 23, 42, 0.10);
+      backdrop-filter: blur(12px);
+      box-shadow: 0 14px 34px rgba(15, 23, 42, 0.10);
+    }
+
+    .profile-note strong {
+      display: block;
+      margin-bottom: 3px;
+    }
+
+    .profile-note span {
+      color: var(--muted-2);
+      font-size: 0.92rem;
+    }
+
+    section {
+      padding: 84px 0;
+    }
+
+    .section-header {
+      margin-bottom: 34px;
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 24px;
+    }
+
+    .section-kicker {
+      color: var(--blue-2);
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+      font-size: 0.78rem;
+      margin-bottom: 8px;
+    }
+
+    .section-title {
+      font-size: clamp(1.95rem, 3.6vw, 2.9rem);
+      line-height: 1.1;
+      letter-spacing: -0.05em;
+    }
+
+    .section-subtitle {
+      max-width: 680px;
+      color: var(--muted);
+      font-size: 1.04rem;
+    }
+
+    .about-card,
+    .contact-card {
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      background: rgba(255, 255, 255, 0.82);
+      padding: 34px;
+      box-shadow: var(--shadow);
+    }
+
+    .about-card p {
+      color: var(--muted);
+      font-size: 1.08rem;
+      max-width: 920px;
+    }
+
+    .grid {
+      display: grid;
+      gap: 22px;
+    }
+
+    .grid-2 {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .grid-3 {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .card {
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      background: rgba(255, 255, 255, 0.86);
+      padding: 26px;
+      box-shadow: 0 14px 34px rgba(15, 23, 42, 0.08);
+      transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+      border-color: rgba(37, 99, 235, 0.28);
+      box-shadow: 0 20px 42px rgba(15, 23, 42, 0.12);
+    }
+
+    .card small {
+      color: var(--blue-2);
+      font-weight: 800;
+    }
+
+    .card h3 {
+      font-size: 1.25rem;
+      margin: 8px 0 10px;
+      letter-spacing: -0.025em;
+    }
+
+    .card p {
+      color: var(--muted);
+      margin-bottom: 18px;
+    }
+
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 9px;
+    }
+
+    .tag {
+      padding: 7px 10px;
+      border-radius: 999px;
+      border: 1px solid rgba(37, 99, 235, 0.14);
+      color: #1e40af;
+      background: rgba(37, 99, 235, 0.07);
+      font-size: 0.82rem;
+      font-weight: 800;
+    }
+
+    .project-card {
+      min-height: 320px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .project-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 20px;
+    }
+
+    .text-link {
+      color: var(--blue-2);
+      font-weight: 800;
+      font-size: 0.95rem;
+    }
+
+    .skill-card h3 {
+      margin-bottom: 14px;
+    }
+
+    .skill-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      color: var(--muted);
+    }
+
+    .education-row {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 24px;
+      padding: 22px 0;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .education-row:last-child {
+      border-bottom: none;
+    }
+
+    .education-row p {
+      color: var(--muted);
+    }
+
+    .contact-card {
+      text-align: center;
+    }
+
+    .contact-card p {
+      color: var(--muted);
+      max-width: 720px;
+      margin: 0 auto 26px;
+    }
+
+    .footer {
+      border-top: 1px solid var(--border);
+      padding: 28px 0;
+      color: var(--muted-2);
+      text-align: center;
+      font-size: 0.92rem;
+      background: rgba(255, 255, 255, 0.55);
+    }
+
+    @media (max-width: 920px) {
+      .nav-links {
+        position: fixed;
+        top: 76px;
+        left: 20px;
+        right: 20px;
+        display: none;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 22px;
+        border: 1px solid var(--border);
+        border-radius: 18px;
+        background: rgba(255, 255, 255, 0.98);
+        box-shadow: var(--shadow);
+      }
+
+      .nav-links.open {
+        display: flex;
+      }
+
+      .menu-btn {
+        display: inline-flex;
+      }
+
+      .hero-grid,
+      .grid-2,
+      .grid-3 {
+        grid-template-columns: 1fr;
+      }
+
+      .hero {
+        padding-top: 54px;
+      }
+
+      .hero-visual {
+        min-height: 410px;
+      }
+
+      .orb {
+        width: 380px;
+        height: 380px;
+      }
+
+      .profile-card {
+        min-height: 410px;
+      }
+
+      .mini-stats {
+        grid-template-columns: 1fr;
+      }
+
+      .mini-stat {
+        border-left: none;
+        border-top: 1px solid var(--border);
+      }
+
+      .section-header {
+        display: block;
+      }
+
+      .section-subtitle {
+        margin-top: 12px;
+      }
+
+      .education-row {
+        display: block;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a class="brand" href="#home" aria-label="Piyush Bhattarai Home">
+        <span class="brand-mark">PB</span>
+        <span>Piyush Bhattarai</span>
+      </a>
+
+      <button class="menu-btn" id="menuBtn" aria-label="Open navigation">Menu</button>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+        <a class="nav-resume" href="resume/Piyush_Bhattarai_Resume.pdf" target="_blank" rel="noopener">Download Resume</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div>
+          <div class="pill">
+            <span>Analytics</span>
+            <span class="dot"></span>
+            <span>Machine Learning</span>
+            <span class="dot"></span>
+            <span>AI Decision Support</span>
+          </div>
+
+          <h1>Hi, I’m Piyush Mohan <span>Bhattarai.</span></h1>
+
+          <p class="hero-copy">
+            I build data, machine learning, and AI-powered decision-support systems that help teams improve workflows, understand complex information, and make better operational decisions.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">View Projects</a>
+            <a class="btn btn-ghost" href="resume/Piyush_Bhattarai_Resume.pdf" target="_blank" rel="noopener">Download Resume</a>
+            <a class="btn btn-ghost" href="https://github.com/pb-7" target="_blank" rel="noopener">GitHub</a>
+            <a class="btn btn-ghost" href="#" target="_blank" rel="noopener">LinkedIn</a>
+          </div>
+
+          <div class="mini-stats" aria-label="Portfolio focus areas">
+            <div class="mini-stat">
+              <strong>Data-Driven Insights</strong>
+              <span>Dashboards, KPIs, analytics workflows</span>
+            </div>
+            <div class="mini-stat">
+              <strong>ML & AI Solutions</strong>
+              <span>NLP, RAG, forecasting, deep learning</span>
+            </div>
+            <div class="mini-stat">
+              <strong>Business Impact Focused</strong>
+              <span>Workflow improvement and decision support</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-label="Profile visual area">
+          <div class="orb"></div>
+          <div class="profile-card">
+            <div class="profile-placeholder">PB</div>
+            <img src="assets/profile.jpg" alt="Piyush Bhattarai" onerror="this.style.display='none';" />
+            <div class="profile-note">
+              <strong>Analytics, ML & AI Portfolio</strong>
+              <span>Focused on practical decision-support systems for business and operational problems.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <div class="section-kicker">About</div>
+            <h2 class="section-title">Connecting data, models, and workflows.</h2>
+          </div>
+        </div>
+
+        <div class="about-card">
+          <p>
+            I am an M.S. Analytics student at Saint Louis University with experience across data analytics, machine learning, NLP, business intelligence, and business systems. My work focuses on building practical tools that connect data, models, and organizational workflows — from forecasting operational workload and developing analytics dashboards to building LLM-powered decision-support applications.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <div class="section-kicker">Experience</div>
+            <h2 class="section-title">Experience across analytics, systems, and operations.</h2>
+          </div>
+          <p class="section-subtitle">
+            A concise view of roles where I worked with data, stakeholders, technical teams, and operational workflows.
+          </p>
+        </div>
+
+        <div class="grid grid-2">
+          <article class="card">
+            <small>June 2023 – July 2024</small>
+            <h3>Lead Data Analyst — SecurityPal Inc.</h3>
+            <p>Built analytics, NLP, forecasting, and reporting workflows for customer operations and security questionnaire processes.</p>
+            <div class="tags">
+              <span class="tag">NLP Workflows</span>
+              <span class="tag">Forecasting</span>
+              <span class="tag">Dashboards</span>
+              <span class="tag">Team Leadership</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <small>Nov 2019 – July 2021</small>
+            <h3>Assistant Department Project Manager — CCS International</h3>
+            <p>Supported telecom systems delivery through requirements gathering, UAT coordination, reporting, SAP tracking, and stakeholder communication.</p>
+            <div class="tags">
+              <span class="tag">Business Systems</span>
+              <span class="tag">Requirements</span>
+              <span class="tag">UAT</span>
+              <span class="tag">Process Reporting</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <small>Dec 2021 – June 2023</small>
+            <h3>Research Analyst — Research & Innovation Unit</h3>
+            <p>Worked on machine learning, analytics, churn prediction, reporting, and applied research projects across technical and business contexts.</p>
+            <div class="tags">
+              <span class="tag">ML Analytics</span>
+              <span class="tag">Churn Analysis</span>
+              <span class="tag">Research</span>
+              <span class="tag">Reporting</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <small>Earlier Experience</small>
+            <h3>Operations Associate — The Nineties Tech</h3>
+            <p>Worked across business operations, client communication, project coordination, and development support in a growing technology environment.</p>
+            <div class="tags">
+              <span class="tag">Operations</span>
+              <span class="tag">Client Communication</span>
+              <span class="tag">Project Support</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <div class="section-kicker">Featured Projects</div>
+            <h2 class="section-title">Selected work in AI, analytics, and decision support.</h2>
+          </div>
+          <p class="section-subtitle">
+            These projects highlight applied machine learning, LLM systems, business intelligence, forecasting, and practical analytics workflows.
+          </p>
+        </div>
+
+        <div class="grid grid-3">
+          <article class="card project-card">
+            <div>
+              <small>LLM Decision Support</small>
+              <h3>Program Fit Explorer</h3>
+              <p>LLM-powered decision-support tool for evaluating student-program fit using program descriptions and student profile data.</p>
+              <div class="tags">
+                <span class="tag">Python</span>
+                <span class="tag">Streamlit</span>
+                <span class="tag">Local LLM</span>
+              </div>
+            </div>
+            <div class="project-links">
+              <a class="text-link" href="#">GitHub →</a>
+              <a class="text-link" href="#">Demo →</a>
+            </div>
+          </article>
+
+          <article class="card project-card">
+            <div>
+              <small>RAG System</small>
+              <h3>KPI Alert Assistant</h3>
+              <p>Retrieval-augmented assistant for explaining KPI alerts and grounding responses in relevant business context.</p>
+              <div class="tags">
+                <span class="tag">RAG</span>
+                <span class="tag">Embeddings</span>
+                <span class="tag">Python</span>
+              </div>
+            </div>
+            <div class="project-links">
+              <a class="text-link" href="#">GitHub →</a>
+              <a class="text-link" href="#">Demo →</a>
+            </div>
+          </article>
+
+          <article class="card project-card">
+            <div>
+              <small>Healthcare Analytics</small>
+              <h3>Healthcare Operations Analytics</h3>
+              <p>Patient-flow and encounter forecasting project using synthetic EHR data to support hospital operations planning.</p>
+              <div class="tags">
+                <span class="tag">Python</span>
+                <span class="tag">ARIMA</span>
+                <span class="tag">Synthea</span>
+              </div>
+            </div>
+            <div class="project-links">
+              <a class="text-link" href="#">GitHub →</a>
+              <a class="text-link" href="#">Details →</a>
+            </div>
+          </article>
+
+          <article class="card project-card">
+            <div>
+              <small>NLP Classification</small>
+              <h3>Banking Intent Classification</h3>
+              <p>NLP intent classification project using transformer-based modeling and model evaluation workflows.</p>
+              <div class="tags">
+                <span class="tag">Transformers</span>
+                <span class="tag">Hugging Face</span>
+                <span class="tag">NLP</span>
+              </div>
+            </div>
+            <div class="project-links">
+              <a class="text-link" href="#">GitHub →</a>
+            </div>
+          </article>
+
+          <article class="card project-card">
+            <div>
+              <small>Computer Vision</small>
+              <h3>Chest X-ray Classification</h3>
+              <p>Computer vision project using deep learning for image classification, comparison, and model evaluation.</p>
+              <div class="tags">
+                <span class="tag">CNN</span>
+                <span class="tag">PyTorch</span>
+                <span class="tag">Deep Learning</span>
+              </div>
+            </div>
+            <div class="project-links">
+              <a class="text-link" href="#">GitHub →</a>
+            </div>
+          </article>
+
+          <article class="card project-card">
+            <div>
+              <small>BI Dashboard</small>
+              <h3>Financial Client Operations Dashboard</h3>
+              <p>Planned Tableau analytics project focused on client onboarding, service operations, KPIs, and process visibility.</p>
+              <div class="tags">
+                <span class="tag">Tableau</span>
+                <span class="tag">SQL</span>
+                <span class="tag">Operations</span>
+              </div>
+            </div>
+            <div class="project-links">
+              <a class="text-link" href="#">Coming Soon →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <div class="section-kicker">Skills</div>
+            <h2 class="section-title">Technical and business skill set.</h2>
+          </div>
+        </div>
+
+        <div class="grid grid-3">
+          <article class="card skill-card">
+            <h3>Data & Analytics</h3>
+            <div class="skill-list">
+              <span>SQL</span><span>Python</span><span>Pandas</span><span>NumPy</span><span>Excel</span><span>EDA</span><span>ETL</span>
+            </div>
+          </article>
+
+          <article class="card skill-card">
+            <h3>Machine Learning</h3>
+            <div class="skill-list">
+              <span>Scikit-learn</span><span>Random Forest</span><span>Deep Learning</span><span>ARIMA</span><span>LSTM</span><span>Model Evaluation</span>
+            </div>
+          </article>
+
+          <article class="card skill-card">
+            <h3>AI / NLP / LLMs</h3>
+            <div class="skill-list">
+              <span>Transformers</span><span>Text Embeddings</span><span>RAG</span><span>Prompt Engineering</span><span>Local LLMs</span>
+            </div>
+          </article>
+
+          <article class="card skill-card">
+            <h3>BI & Visualization</h3>
+            <div class="skill-list">
+              <span>Tableau</span><span>Power BI</span><span>Looker Studio</span><span>Matplotlib</span><span>Excel Dashboards</span>
+            </div>
+          </article>
+
+          <article class="card skill-card">
+            <h3>Business & Systems</h3>
+            <div class="skill-list">
+              <span>Requirements Gathering</span><span>Stakeholder Management</span><span>Agile</span><span>UAT</span><span>Process Improvement</span><span>KPI Reporting</span>
+            </div>
+          </article>
+
+          <article class="card skill-card">
+            <h3>Research & Communication</h3>
+            <div class="skill-list">
+              <span>Technical Writing</span><span>Literature Review</span><span>Presentations</span><span>Cross-functional Collaboration</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="education">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <div class="section-kicker">Education</div>
+            <h2 class="section-title">Academic background.</h2>
+          </div>
+        </div>
+
+        <div class="about-card">
+          <div class="education-row">
+            <div>
+              <h3>Saint Louis University</h3>
+              <p>M.S. in Analytics</p>
+            </div>
+            <p>GPA: 4.0/4.0 · Expected May 2026</p>
+          </div>
+
+          <div class="education-row">
+            <div>
+              <h3>MBA</h3>
+              <p>Business and management foundation with analytics and operations interests.</p>
+            </div>
+            <p>Completed 2021</p>
+          </div>
+
+          <div class="education-row">
+            <div>
+              <h3>B.Tech in Information Technology</h3>
+              <p>Technical foundation in computing, systems, and software concepts.</p>
+            </div>
+            <p>Completed 2016</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <div class="contact-card">
+          <div class="section-kicker">Contact</div>
+          <h2 class="section-title">Let’s connect.</h2>
+          <p>
+            Interested in my work, projects, or background? Feel free to reach out through email, LinkedIn, or GitHub.
+          </p>
+          <div class="hero-actions" style="justify-content: center; margin-bottom: 0;">
+            <a class="btn btn-primary" href="mailto:pratikmb7@gmail.com">Email Me</a>
+            <a class="btn btn-ghost" href="https://github.com/pb-7" target="_blank" rel="noopener">GitHub</a>
+            <a class="btn btn-ghost" href="#" target="_blank" rel="noopener">LinkedIn</a>
+            <a class="btn btn-ghost" href="resume/Piyush_Bhattarai_Resume.pdf" target="_blank" rel="noopener">Resume</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      © <span id="year"></span> Piyush Bhattarai. Built with HTML, CSS, and GitHub Pages.
+    </div>
+  </footer>
+
+  <script>
+    const menuBtn = document.getElementById('menuBtn');
+    const navLinks = document.getElementById('navLinks');
+
+    menuBtn.addEventListener('click', () => {
+      navLinks.classList.toggle('open');
+    });
+
+    navLinks.querySelectorAll('a').forEach((link) => {
+      link.addEventListener('click', () => {
+        navLinks.classList.remove('open');
+      });
+    });
+
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
